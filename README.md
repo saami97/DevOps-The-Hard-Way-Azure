@@ -39,6 +39,9 @@ You will be using the following technologies and platforms to set up a DevOps en
     - Testing Terraform code with Checkov.
   
 ## Labs
+
+**THE FOLLOWING LABS ARE STILL BEING WORKED ON SO IF A LINK DOESN'T WORK THAT'S WHY**
+
 1. [Prerequisites](https://github.com/AdminTurnedDevOps/DevOps-The-Hard-Way-Azure/blob/main/prerequisites.md)
 
 2. Container - The purpose of the Container section is to create a Docker image for the app that the organization is running on-prem (the UI app), containerize it, and store the container inside of a container repository. For the container repo, you'll use Azure ACR.
