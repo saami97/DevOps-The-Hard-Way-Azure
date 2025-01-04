@@ -16,3 +16,26 @@ The solution is to deploy the [app_incoming]. Currently, this solution is sittin
 
 
 As a DevOps Engineer, you're more or less (most likely) not writing the app, but instead, deploying, managing, maintaining, and securing it. That's why you're not writing your own app in this tutorial.
+
+## Technology Details
+You will be using the following technologies and platforms to set up a DevOps environment.
+
+1. Azure
+    - Azure will be used to host the application, cloud infrastructure, and any other services we may need to ensure the app is deployed properly.
+2. GitHub
+    - To store the application and infrastructure/automation code
+3. Python
+    - Python will be used for automation efforts that aren't in Terraform.
+4. Terraform
+   - To create any infrastructure (like an AKS cluster) or other services (key vault, storage, etc etc.)
+5. Docker
+   - Create a Docker image
+   - Store the Docker image in AWS ECR
+6. Kubernetes
+   - To run the Docker image that's created for the containerized Uber app. Kubernetes, in this case, EKS, will be used to orchestrate the container.
+7. CI/CD
+   - Use GitHub Actions to create an EKS cluster
+8. Automated testing
+    - Testing Terraform code with Checkov
+  
+## Labs
