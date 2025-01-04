@@ -45,7 +45,7 @@ You will be using the following technologies and platforms to set up a DevOps en
 1. [Prerequisites](https://github.com/AdminTurnedDevOps/DevOps-The-Hard-Way-Azure/blob/main/prerequisites.md)
 
 2. Azure:
-    - [Create An Azure Account]()
+    - [Create An Azure Account](https://github.com/AdminTurnedDevOps/DevOps-The-Hard-Way-Azure/blob/main/azure-setup/create-account.md)
     - [Log Into Azure Programmatically]()
 
 3. Container - The purpose of the Container section is to create a Docker image for the app that the organization is running on-prem (the UI app), containerize it, and store the container inside of a container repository. For the container repo, you'll use Azure ACR.
