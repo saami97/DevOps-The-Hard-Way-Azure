@@ -11,7 +11,7 @@ The scenario that you're currently facing is you work in an organization that is
 You're brought into the company and team to make things more modern so the organization can not only succeed, but stay ahead of their competition. Management now understands the needs and complexity that comes with staying ahead of their competition and they know that they need to. Otherwise, the organization will fall...
 
 ## DevOps Solution
-The solution is to deploy the [app_incoming]. Currently, this solution is sitting on a bunch of baremetal, but it's time to sprinkle a little DevOps on it.
+The solution is to deploy a video/streaming-based UI app. Currently, this solution is sitting on a bunch of baremetal, but it's time to sprinkle a little DevOps on it.
 
 
 
@@ -24,8 +24,8 @@ You will be using the following technologies and platforms to set up a DevOps en
     - Azure will be used to host the application, cloud infrastructure, and any other services we may need to ensure the app is deployed properly.
 2. GitHub
     - To store the application and infrastructure/automation code.
-3. Python
-    - Python will be used for automation efforts that aren't in Terraform.
+3. Go
+    - Go will be used for automation efforts that aren't in Terraform. It's also what the application is built in!
 4. Terraform
    - To create any infrastructure (like an AKS cluster) or other services (key vault, storage, etc etc.).
 5. Docker
