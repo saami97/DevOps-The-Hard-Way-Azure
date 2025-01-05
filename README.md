@@ -24,8 +24,8 @@ You will be using the following technologies and platforms to set up a DevOps en
     - Azure will be used to host the application, cloud infrastructure, and any other services we may need to ensure the app is deployed properly.
 2. GitHub
     - To store the application and infrastructure/automation code.
-3. Go
-    - Go will be used for automation efforts that aren't in Terraform. It's also what the application is built in!
+3. Python
+    - Python will be used for automation efforts that aren't in Terraform. It's also what the application is built on!
 4. Terraform
    - To create any infrastructure (like an AKS cluster) or other services (key vault, storage, etc etc.).
 5. Docker
