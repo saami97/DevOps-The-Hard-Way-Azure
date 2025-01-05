@@ -4,7 +4,7 @@ In this lab you will create a Docker image to containerize the UI app
 
 ## Create The Docker Image
 
-1. `cd` into the *Docker* directory where you will see a *Dockerfile* and *app* directory. The app directory is what stores the Python application and the Dockerfile will be used to build the app.
+1. `cd` into the *container* directory where you will see a *Dockerfile* and *app* directory. The app directory is what stores the Python application and the Dockerfile will be used to build the app.
 
 2. Open the Dockerfile
 
@@ -15,7 +15,7 @@ In this lab you will create a Docker image to containerize the UI app
    - The app will run as soon as the container gets created and comes up
 
 4. To create the Docker image, you'll run the following command:
-`docker build -t uberapp .`
+`docker build -t pyweb .`
 
 The `-t` is for the tag (the name) of the Docker image and the `.` is telling the Docker CLI that the Dockerfile is in the current directory
 
@@ -27,11 +27,12 @@ The `-t` is for the tag (the name) of the Docker image and the `.` is telling th
 Now that the Docker image is created, you can run the container locally just to confirm it'll work and not crash.
 
 1. To run the Docker container, run the following command:
-`docker run -tid uber`
+`docker run -tid -p 5001:5001 pyweb`
 
 - `t` stands for a TTY console
 - `i` stands for interactive
 - `d` stands for detach so your terminal isn't directly connected to the Docker container
+- `p` is to specifiy the applications port and what port you want to access the app on
 
 2. To confirm the Docker container is running, run the following command:
 `docker container ls`
