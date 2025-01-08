@@ -32,11 +32,12 @@ As an example, let's say I set the following when pushing the container image to
 - The port number when I built the container image, which is **5000**
 
 My config would look like the following:
-
+```
 az containerapp env create \
 --name mypywebappenvironment \
 --resource-group devrelasaservice \
 --location eastus
+```
 
 ```
 az containerapp create \
