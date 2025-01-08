@@ -57,8 +57,8 @@ You will be using the following technologies and platforms to set up a DevOps en
     - [Test Out Azure Container Apps Via The UI](https://github.com/AdminTurnedDevOps/DevOps-The-Hard-Way-Azure/blob/main/aca/container-apps-ui.md)
     - [Test Out Azure Container Apps Via The CLI](https://github.com/AdminTurnedDevOps/DevOps-The-Hard-Way-Azure/blob/main/aca/container-apps-cli.md)
     - [Why Choose AKS](https://github.com/AdminTurnedDevOps/DevOps-The-Hard-Way-Azure/blob/main/aks/why-aks.md)
-    - [Create An AKS Cluster]()
-    - [Create An AKS Cluster Using Cilium]()
+    - [Create An AKS Cluster](https://github.com/AdminTurnedDevOps/DevOps-The-Hard-Way-Azure/blob/main/aks/aks-terraform/create.md)
+    - [Create An AKS Cluster Using Cilium](https://github.com/AdminTurnedDevOps/DevOps-The-Hard-Way-Azure/blob/main/aks/aks-terraform/create.md)
 
 5. CICD - The purpose of this section is to automatically create an AKS cluster with CICD using GitHub Actions
 
