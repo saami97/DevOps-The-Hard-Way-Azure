@@ -56,7 +56,7 @@ You will be using the following technologies and platforms to set up a DevOps en
 4. Terraform - The purpose of the Terraform section is to create all of the Azure cloud services you'll need from an environment/infrastructure perspective to run the UI application.
     - [Test Out Azure Container Apps Via The UI](https://github.com/AdminTurnedDevOps/DevOps-The-Hard-Way-Azure/blob/main/aca/container-apps-ui.md)
     - [Test Out Azure Container Apps Via The CLI](https://github.com/AdminTurnedDevOps/DevOps-The-Hard-Way-Azure/blob/main/aca/container-apps-cli.md)
-    - [Why Choose AKS]()
+    - [Why Choose AKS](https://github.com/AdminTurnedDevOps/DevOps-The-Hard-Way-Azure/blob/main/aks/why-aks.md)
     - [Create An AKS Cluster]()
     - [Create An AKS Cluster Using Cilium]()
 
