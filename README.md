@@ -61,6 +61,8 @@ You will be using the following technologies and platforms to set up a DevOps en
     - [Create An AKS Cluster Using Cilium](https://github.com/AdminTurnedDevOps/DevOps-The-Hard-Way-Azure/blob/main/aks/aks-terraform/create.md)
 
 5. CICD - The purpose of this section is to automatically create an AKS cluster with CICD using GitHub Actions
+    - [Set Up Secrets]()
+    - [Configure Pipeline]()
 
 6. Kubernetes - The purpose of the Kubernetes section is to connect to AKS locally and to write the Kubernetes manifest to deploy the UI app.
     - [Connect To AKS From The Terminal]()
