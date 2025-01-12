@@ -2,13 +2,13 @@ terraform {
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
-      version = ">= 3.0.0"
     }
   }
 }
 
 provider "azurerm" {
   features {}
+  subscription_id = var.sub
 }
 
 resource "azurerm_kubernetes_cluster" "k8squickstart" {

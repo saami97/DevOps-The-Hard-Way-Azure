@@ -17,3 +17,8 @@ variable "node_count" {
   type = string
   default = 1
 }
+
+variable "sub" {
+  type = string
+  default = ""
+}
