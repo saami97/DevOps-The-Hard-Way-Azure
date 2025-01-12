@@ -83,3 +83,7 @@ The rest of the pipeline is standard CICD configurations like the name, permissi
 9. If you click on the pipeline, you'll see it running.
 
 ![](../../../images/pipeline9.png)
+
+10. Once complete, you'll see a successful deployment.
+
+![](../../../images/pipeline10.png)
