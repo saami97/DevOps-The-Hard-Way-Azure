@@ -79,3 +79,7 @@ The rest of the pipeline is standard CICD configurations like the name, permissi
 8. You'll now see the pipeline queued up.
 
 ![](../../../images/pipeline8.png)
+
+9. If you click on the pipeline, you'll see it running.
+
+![](../../../images/pipeline9.png)
