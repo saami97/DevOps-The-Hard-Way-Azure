@@ -65,8 +65,8 @@ You will be using the following technologies and platforms to set up a DevOps en
     - [Configure Pipeline](https://github.com/AdminTurnedDevOps/DevOps-The-Hard-Way-Azure/blob/main/automated-deployments/cicd/github_actions/pipeline.md)
 
 6. Kubernetes - The purpose of the Kubernetes section is to connect to AKS locally and to write the Kubernetes manifest to deploy the UI app.
-    - [Connect To AKS From The Terminal]()
-    - [Create A Kubernetes Manifest]()
+    - [Connect To AKS From The Terminal](https://github.com/AdminTurnedDevOps/DevOps-The-Hard-Way-Azure/blob/main/aks/connect-to-aks.md)
+    - [Create A Kubernetes Manifest](https://github.com/AdminTurnedDevOps/DevOps-The-Hard-Way-Azure/blob/main/container/create-a-manifest.md)
 
 7. Security - Proper security is the make or break between a successful environment and a successful outage with a ton of bad press around your company. These labs will go over a few different methods of security in Azure for AKS.
     - [Security Dashboard On AKS]()
