@@ -52,6 +52,7 @@ You will be using the following technologies and platforms to set up a DevOps en
     - [Create The Docker Image](https://github.com/AdminTurnedDevOps/DevOps-The-Hard-Way-Azure/blob/main/container/create-docker-image.md)
     - [Create ACR](https://github.com/AdminTurnedDevOps/DevOps-The-Hard-Way-Azure/blob/main/container/create-acr.md)
     - [Push Container Image](https://github.com/AdminTurnedDevOps/DevOps-The-Hard-Way-Azure/blob/main/container/push-image.md)
+    - [Container Image Scanning]()
 
 4. Terraform - The purpose of the Terraform section is to create all of the Azure cloud services you'll need from an environment/infrastructure perspective to run the UI application.
     - [Test Out Azure Container Apps Via The UI](https://github.com/AdminTurnedDevOps/DevOps-The-Hard-Way-Azure/blob/main/aca/container-apps-ui.md)
@@ -80,13 +81,10 @@ You will be using the following technologies and platforms to set up a DevOps en
     - [Deploy The Grafana/Prometheus/Loki/Temp Stack]()
     - [Use Built-In AKS Monitoring And Observability]()
 
-10. Automated Testing - The purpose of the Automation Testing section is to ensure that all of the Terraform code is performing as it should be from a policy, security, and static code analysis perspective.
-    - [Install And Run Checkov]()
-
-11. Scaling - Without your application(s) performing as expected, engineers are led to late-night calls, angry customers, and unhappy management. This section will show a few ways to ensure proper resource and cost optimization.
+10. Scaling - Without your application(s) performing as expected, engineers are led to late-night calls, angry customers, and unhappy management. This section will show a few ways to ensure proper resource and cost optimization.
     - [Implementing Karpenter]()
 
-12. Kubernetes GUI - Sometimes engineers want a way to see Kubernetes outside of the CLI and YAML. They want a visual. Microsoft Headlamp allows you to view your k8s cluster without having to use `kubectl`.
+11. Kubernetes GUI - Sometimes engineers want a way to see Kubernetes outside of the CLI and YAML. They want a visual. Microsoft Headlamp allows you to view your k8s cluster without having to use `kubectl`.
     - [Implementing Headlamp]()
 
     
