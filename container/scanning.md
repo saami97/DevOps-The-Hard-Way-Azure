@@ -1,4 +1,4 @@
-There are a few steps when securing an application stack that's going to be containerized. The majority of those steps are way before the containerization process even occurs.
+There are a few steps that you should think about when securing an application stack that's going to be containerized. The majority of those steps are way before the containerization process even occurs.
 
 There are tests like:
 1. Security linting
