@@ -18,7 +18,7 @@ For the purposes of this lab, you'll use a Deployment.
 
 If you've never created/deployed a Kubernetes Manifest before, you can find a full break down from this amazing blog post: https://8grams.medium.com/kubernetes-101-yaml-manifest-c60da98922e3
 
-1. Copy the following YAML and ensure that you cahnge the `image` path as that'll need to be your ACR.
+1. Copy the following YAML and ensure that you change the `image` path as that'll need to be your ACR.
 
 ```
 apiVersion: apps/v1
