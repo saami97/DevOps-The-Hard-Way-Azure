@@ -1,0 +1,21 @@
+name: Spell Check
+
+on:
+  push:
+    branches: [main, spell-check-for-readme]
+  pull_request:
+    branches: [main]
+
+jobs:
+  spell-check:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Install codespell
+      run: sudo apt-get install -y codespell
+
+    - name: Run codespell
+      run: codespell --ignore-words-list="fo,fofo,fofofo" "**/*.md"
