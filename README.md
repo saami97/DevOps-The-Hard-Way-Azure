@@ -1,9 +1,9 @@
 # DevOps-The-Hard-Way-Azure
-"DevOps-The-Hard-Way-AWS" got a lot of traction, so I figured I'd make one for Azure!
+"DevOps-The-Hard-Way-AWS" got a lot of traction, so I figur I'd make one for Azure!
 
 This tutorial contains a full, real-world solution for setting up an environment that uses DevOps/Platform/SRE/Whatever Else You Want To Call It technologies and practices for deploying apps and cloud services/cloud infrastructure to Azure.
 
-The repository contains free labs, documentation, diagrams, and docs for setting up an entire workflow and DevOps environment from a real-world perspective in Azure.
+The repository contains free labs, documentation, diagr, and docs for setting up an entire workflow and DevOps environment from a real-world perspective in Azure.
 
 ## DevOps/SRE/Platform/Cloud Engineering Scenario
 The scenario that you're currently facing is you work in an organization that is very monolithic. There is a ton of bare metal, virtualization, manual deployments of applications, and old school practices based on the current teams knowledge of IT.
